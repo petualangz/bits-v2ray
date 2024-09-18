@@ -1,7 +1,24 @@
 name = "bits"
 main = "src/worker.ts"
 compatibility_date = "2024-01-01"
-
+[[routes]]
+pattern = "aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "shopee.co.id.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cf.shopee.co.id.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cv.shopee.sg.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "cvs-deo.shopeemobile.com.aldo-sg.generasitel.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.aldo-sg.generasitel.my.id"
+custom_domain = true
 kv_namespaces = [
   { binding = "settings", id = "049f78aed90a48929c11b4050953e1ce" }
 ]
